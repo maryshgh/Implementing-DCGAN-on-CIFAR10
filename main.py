@@ -10,7 +10,7 @@ from tensorflow.keras import layers
 import time
 from IPython import display
 
-# Import data - MNIST fashion dataset
+# Import data - CIFAR10 dataset
 (train_images, train_labels), (_, _) = tf.keras.datasets.cifar10.load_data()
 
 # preprocessing the images - 
